@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&family=Playfair+Display&family=Playfair+Display+SC:ital@0;1&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: #b4ad9e;
+}
+
+a:hover {
+  color: #898377;
+}
+
+.post-category,
+.link-more {
+  font-family: Ubuntu;
+  text-transform: uppercase;
+  color: #b4ad9e;
+  font-size: 14px;
+}
+
+body {
+  min-width: 320px;
+  font-size: 14px;
+  font-family: 'Playfair Display', serif;
+  color: #626262;
+}
+
+header .container {
+  padding: 5px 0px 30px 25px;
+}
+
+header .navbar-light {
+  background-color: #fff;
+  padding: 10px 20px 15px 15px;
+}
+
+header .navbar-brand {
+  font-family: 'Inconsolata', monospace;
+  font-size: 30px;
+  color: #000;
+  text-transform: uppercase;
+}
+
+header .nav-item {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #626262;
+  margin: 0px 0px 0px 100px;
+}
+
+@media (max-width: 991px) {
+  header .nav-item {
+    margin: 0px 0px 0px 0px;
+  }
+}
+
+header .nav-item a:hover {
+  text-decoration: underline;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+#slider {
+  margin: 0px 0px 50px 0px;
+}
+
+.wrapper {
+  padding: 0px 73px 0px 80px;
+}
+
+.wrapper .col {
+  padding: 0px 20px;
+}
+
+.wrapper p {
+  line-height: 1.7rem;
+  margin: 0px 0px 70px 20px;
+}
+
+.post-title {
+  font-family: "Playfair Display";
+  color: #626262;
+  margin: 0px 0px 40px 0px;
+}
+
+.post-category {
+  margin: 40px 0px 20px 25px;
+}
+
+.grid-posts {
+  margin: 80px 0px 25px 0px;
+}
+
+.grid-posts .card {
+  border: 0;
+  margin: 0px 30px 0px 0px;
+}
+
+.grid-posts .card .card-body {
+  padding: 0px 0px 0px 0px;
+}
+
+.grid-posts .card .card-text {
+  margin: 0px 0px 130px 0px;
+}
+
+.grid-posts img {
+  max-height: 250px;
+}
+
+.load-more {
+  padding: 20px 35px 20px 35px;
+  margin: 20px 30px 50px 0px;
+  font-family: "Playfair Display";
+  border-radius: 0;
+  font-size: 20px;
+  color: #626262;
+}
+
+.wrapper-two {
+  background-color: #f0f0f0;
+  margin: 0px 0px 70px 0px;
+}
+
+.wrapper-two .text-center {
+  font-size: 30px;
+  color: #333333;
+  letter-spacing: 0.75px;
+  font-family: "Playfair Display";
+  margin: 50px 40px 0px 0px;
+  padding: 0px 0px 105px 0px;
+}
+
+.wrapper-two .form-input {
+  position: relative;
+}
+
+.wrapper-two .form-input .btn {
+  position: absolute;
+  right: 0;
+  top: -10px;
+}
+
+.wrapper-two .form-input .form-control {
+  border: 0;
+  border-bottom: 1px solid #000;
+  border-radius: 0;
+  background-color: transparent;
+  margin: 0px 0px 100px 0px;
+  line-height: 1.7rem;
+  padding: 0px 0px 20px 0px;
+}
+
+.wrapper-two .form-input .form-control:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+footer {
+  background-color: #f0f0f0;
+  padding: 50px 0px;
+}
+
+footer .footer-left {
+  padding: 0px 0px 0px 85px;
+}
+
+footer .footer-left a {
+  margin: 0px 20px 0px 0px;
+  color: #000;
+}
+
+@media (max-width: 575px) {
+  footer .footer-left {
+    margin: 0px 0px 20px 0px;
+  }
+}
+
+footer .footer-right {
+  padding: 5px 40px 0px 0px;
+}
+
+footer .footer-right a {
+  margin: 0px 0px 0px 20px;
+  color: #626262;
+}
